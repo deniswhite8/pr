@@ -2,6 +2,22 @@ body {
 	cursor: url(cursor.png), auto;
 }
 
-.controls {
-	display: none;
+.small {
+	font-size: 70%;
+}
+
+.img > .slide-content {
+	width: 1600px;
+	height: auto;
+	margin-top: 0;
+}
+
+.small-img > .slide-content {
+	width: 1000px;
+	height: auto;
+	margin-top: 0;
+}
+
+img {
+	width: 100%;
 }

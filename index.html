@@ -396,8 +396,24 @@ body {
 	cursor: url(cursor.png), auto;
 }
 
-.controls {
-	display: none;
+.small {
+	font-size: 70%;
+}
+
+.img > .slide-content {
+	width: 1600px;
+	height: auto;
+	margin-top: 0;
+}
+
+.small-img > .slide-content {
+	width: 1000px;
+	height: auto;
+	margin-top: 0;
+}
+
+img {
+	width: 100%;
 }
   </style>
 </head>
@@ -423,32 +439,32 @@ body {
 <p>Позволяет просмотреть все изображения товара на странице категории, в открывающимся рядом списке.</p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-3">
-    <section class="slide-content"><p><img src="gallery/front/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-3">
+    <section class="slide-content"><p><img src="gallery/front/1.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-4">
-    <section class="slide-content"><p><img src="gallery/front/2.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-4">
+    <section class="slide-content"><p><img src="gallery/front/2.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-5">
-    <section class="slide-content"><p><img src="gallery/front/3.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-5">
+    <section class="slide-content"><p><img src="gallery/front/3.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-6">
-    <section class="slide-content"><p><img src="gallery/front/4.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-6">
+    <section class="slide-content"><p><img src="gallery/front/4.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-7">
-    <section class="slide-content"><p><img src="gallery/front/5.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-7">
+    <section class="slide-content"><p><img src="gallery/front/5.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-8">
-    <section class="slide-content"><p><img src="gallery/admin/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-8">
+    <section class="slide-content"><p><img src="gallery/admin/1.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-9">
-    <section class="slide-content"><p><img src="gallery/table/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-9">
+    <section class="slide-content"><p><img src="gallery/table/1.png"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-10">
@@ -456,19 +472,19 @@ body {
 <p>Расширяет стандартный поиск, делает его аяксовым и с возможностью множественного выбора.</p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-11">
-    <section class="slide-content"><p><img src="filter/front/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-11">
+    <section class="slide-content"><p><img src="filter/front/1.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-12">
-    <section class="slide-content"><p><img src="filter/front/2.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-12">
+    <section class="slide-content"><p><img src="filter/front/2.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-13">
-    <section class="slide-content"><p><img src="filter/front/3.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-13">
+    <section class="slide-content"><p><img src="filter/front/3.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-14">
+  <div class="slide hidden  small-img" id="slide-14">
     <section class="slide-content"><p><img src="filter/front/4.png" width="75%"></p>
 </section>
   </div>
@@ -477,19 +493,19 @@ body {
 <p>При включенном FPC, изначально, при переходе с десктопной версии сайта на мобильную (или наоборот), страницы кешировались и показывались всем. Данный модуль решает эту проблему.</p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-16">
-    <section class="slide-content"><p><img src="cache/admin/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-16">
+    <section class="slide-content"><p><img src="cache/admin/1.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-17">
-    <section class="slide-content"><p><img src="cache/front/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-17">
+    <section class="slide-content"><p><img src="cache/front/1.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-18">
-    <section class="slide-content"><p><img src="cache/front/2.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-18">
+    <section class="slide-content"><p><img src="cache/front/2.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-19">
+  <div class="slide hidden  small-img" id="slide-19">
     <section class="slide-content"><p><img src="cache/code/1.png" width="85%"></p>
 </section>
   </div>
@@ -498,56 +514,56 @@ body {
 <p>Данный модуль позволяет создавать метки для товаров. У меток есть возможность создавать и настраивать различные правила в конструкторе условий, по которым определяется, будет ли она показана.</p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-21">
-    <section class="slide-content"><p><img src="label/admin/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-21">
+    <section class="slide-content"><p><img src="label/admin/1.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-22">
-    <section class="slide-content"><p><img src="label/admin/2.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-22">
+    <section class="slide-content"><p><img src="label/admin/2.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-23">
-    <section class="slide-content"><p><img src="label/admin/3.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-23">
+    <section class="slide-content"><p><img src="label/admin/3.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-24">
-    <section class="slide-content"><p><img src="label/admin/4.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-24">
+    <section class="slide-content"><p><img src="label/admin/4.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-25">
-    <section class="slide-content"><p><img src="label/admin/5.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-25">
+    <section class="slide-content"><p><img src="label/admin/5.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-26">
-    <section class="slide-content"><p><img src="label/admin/6.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-26">
+    <section class="slide-content"><p><img src="label/admin/6.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-27">
-    <section class="slide-content"><p><img src="label/admin/7.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-27">
+    <section class="slide-content"><p><img src="label/admin/7.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-28">
-    <section class="slide-content"><p><img src="label/admin/8.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-28">
+    <section class="slide-content"><p><img src="label/admin/8.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-29">
-    <section class="slide-content"><p><img src="label/admin/9.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-29">
+    <section class="slide-content"><p><img src="label/admin/9.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-30">
-    <section class="slide-content"><p><img src="label/front/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-30">
+    <section class="slide-content"><p><img src="label/front/1.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-31">
-    <section class="slide-content"><p><img src="label/front/2.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-31">
+    <section class="slide-content"><p><img src="label/front/2.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-32">
-    <section class="slide-content"><p><img src="label/front/3.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-32">
+    <section class="slide-content"><p><img src="label/front/3.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-33">
-    <section class="slide-content"><p><img src="label/front/4.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-33">
+    <section class="slide-content"><p><img src="label/front/4.png"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-34">
@@ -555,97 +571,95 @@ body {
 <p>Этот модуль делает следующие вещи:</p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-35">
-    <section class="slide-content"><p><small></p>
-<ul>
+  <div class="slide hidden  small" id="slide-35">
+    <section class="slide-content"><ul>
 <li>Добавляет поле email к сущности отзыва</li>
 <li>Добавляет возможность голосовать за отзывы (полезный или нет)</li>
 <li>Добавляет в таблицу отзывов в адмике колонки с email&#39;ом, количеством плюсов и минусов</li>
 <li>Добавляет в админку таблицу оценок отзывов</li>
 <li>Позволяет настраивать минимальное время между отправкой отзывов</li>
 <li>Создает систему, для отправки покупателям на почту просьб оставить отзыв недавно приобретенным товарам, по заданным настройкам<ul>
-<li>1</li>
-<li>2
-</small></li>
+<li>В автоматическом режиме (через время T после изменения статуса заказа)</li>
+<li>В ручном режиме (через запуск скрипта)</li>
 </ul>
 </li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-36">
-    <section class="slide-content"><p><img src="review/front/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-36">
+    <section class="slide-content"><p><img src="review/front/1.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-37">
-    <section class="slide-content"><p><img src="review/front/2.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-37">
+    <section class="slide-content"><p><img src="review/front/2.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-38">
-    <section class="slide-content"><p><img src="review/front/3.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-38">
+    <section class="slide-content"><p><img src="review/front/3.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-39">
-    <section class="slide-content"><p><img src="review/front/4.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-39">
+    <section class="slide-content"><p><img src="review/front/4.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-40">
-    <section class="slide-content"><p><img src="review/front/5.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-40">
+    <section class="slide-content"><p><img src="review/front/5.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-41">
-    <section class="slide-content"><p><img src="review/front/6.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-41">
+    <section class="slide-content"><p><img src="review/front/6.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-42">
-    <section class="slide-content"><p><img src="review/front/7.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-42">
+    <section class="slide-content"><p><img src="review/front/7.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-43">
-    <section class="slide-content"><p><img src="review/front/8.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-43">
+    <section class="slide-content"><p><img src="review/front/8.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-44">
-    <section class="slide-content"><p><img src="review/front/9.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-44">
+    <section class="slide-content"><p><img src="review/front/9.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-45">
-    <section class="slide-content"><p><img src="review/front/10.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-45">
+    <section class="slide-content"><p><img src="review/front/10.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-46">
-    <section class="slide-content"><p><img src="review/front/11.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-46">
+    <section class="slide-content"><p><img src="review/front/11.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-47">
-    <section class="slide-content"><p><img src="review/front/12.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-47">
+    <section class="slide-content"><p><img src="review/front/12.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-48">
-    <section class="slide-content"><p><img src="review/admin/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-48">
+    <section class="slide-content"><p><img src="review/admin/1.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-49">
-    <section class="slide-content"><p><img src="review/admin/2.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-49">
+    <section class="slide-content"><p><img src="review/admin/2.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-50">
-    <section class="slide-content"><p><img src="review/admin/3.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-50">
+    <section class="slide-content"><p><img src="review/admin/3.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-51">
-    <section class="slide-content"><p><img src="review/admin/4.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-51">
+    <section class="slide-content"><p><img src="review/admin/4.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-52">
-    <section class="slide-content"><p><img src="review/admin/5.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-52">
+    <section class="slide-content"><p><img src="review/admin/5.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-53">
-    <section class="slide-content"><p><img src="review/admin/6.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-53">
+    <section class="slide-content"><p><img src="review/admin/6.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-54">
-    <section class="slide-content"><p><img src="review/email/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-54">
+    <section class="slide-content"><p><img src="review/email/1.png"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-55">
@@ -653,24 +667,24 @@ body {
 <p>Модуль предоставляет блок, для показа подкатегорий, из выбранной в админке родительской категории. Возможно встраивание в статичную страницу, например с 404 ошибкой.</p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-56">
-    <section class="slide-content"><p><img src="404/admin/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-56">
+    <section class="slide-content"><p><img src="404/admin/1.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-57">
-    <section class="slide-content"><p><img src="404/admin/2.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-57">
+    <section class="slide-content"><p><img src="404/admin/2.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-58">
-    <section class="slide-content"><p><img src="404/admin/3.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-58">
+    <section class="slide-content"><p><img src="404/admin/3.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-59">
-    <section class="slide-content"><p><img src="404/admin/4.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-59">
+    <section class="slide-content"><p><img src="404/admin/4.png"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-60">
-    <section class="slide-content"><p><img src="404/front/1.png" width="100%"></p>
+  <div class="slide hidden  img" id="slide-60">
+    <section class="slide-content"><p><img src="404/front/1.png"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-61">
@@ -678,10 +692,6 @@ body {
 </section>
   </div>
 
-  <div class="controls">
-    <div class="arrow prev"></div>
-    <div class="arrow next"></div>
-  </div>
 
 
   <script type="text/javascript">
