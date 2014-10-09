@@ -392,7 +392,13 @@ pre .chunk {
   color: #aaa
 }
 
+body {
+	cursor: url(cursor.png), auto;
+}
 
+.controls {
+	display: none;
+}
   </style>
 </head>
 <body>
@@ -414,7 +420,7 @@ pre .chunk {
   </div>
   <div class="slide hidden" id="slide-2">
     <section class="slide-content"><h3 id="-">Галерея в списке товаров</h3>
-<p>Позволяет просматреть все изображения товара на странице категории, в открывающимся рядом списке.</p>
+<p>Позволяет просмотреть все изображения товара на странице категории, в открывающимся рядом списке.</p>
 </section>
   </div>
   <div class="slide hidden" id="slide-3">
@@ -468,7 +474,7 @@ pre .chunk {
   </div>
   <div class="slide hidden" id="slide-15">
     <section class="slide-content"><h3 id="-fpc-full-page-cache-">Исправление FPC (Full Page Cache), для переключения тем</h3>
-<p>При включенном FPC, bзначально, при переходе с десктопной версии сайта на мобильную (или наоборот), страницы кешировались и показывались всем. Данный модуль решает эту проблему.</p>
+<p>При включенном FPC, изначально, при переходе с десктопной версии сайта на мобильную (или наоборот), страницы кешировались и показывались всем. Данный модуль решает эту проблему.</p>
 </section>
   </div>
   <div class="slide hidden" id="slide-16">
@@ -484,176 +490,190 @@ pre .chunk {
 </section>
   </div>
   <div class="slide hidden" id="slide-19">
-    <section class="slide-content"><p><img src="cache/code/1.png" width="100%"></p>
+    <section class="slide-content"><p><img src="cache/code/1.png" width="85%"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-20">
-    <section class="slide-content"><p><img src="cache/code/2.png" width="100%"></p>
+    <section class="slide-content"><h3 id="-">Настраиваемые метки на товары</h3>
+<p>Данный модуль позволяет создавать метки для товаров. У меток есть возможность создавать и настраивать различные правила в конструкторе условий, по которым определяется, будет ли она показана.</p>
 </section>
   </div>
   <div class="slide hidden" id="slide-21">
-    <section class="slide-content"><h3 id="-">Настраиваемые метки на товары</h3>
-<p>Данный модуль позволяет создавать метки для товаров. У меток есть возможность создавать и настраивать различные правила в конструкторе условий, по которым отпередляется, будет ли она показана.</p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-22">
     <section class="slide-content"><p><img src="label/admin/1.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-23">
+  <div class="slide hidden" id="slide-22">
     <section class="slide-content"><p><img src="label/admin/2.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-24">
+  <div class="slide hidden" id="slide-23">
     <section class="slide-content"><p><img src="label/admin/3.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-25">
+  <div class="slide hidden" id="slide-24">
     <section class="slide-content"><p><img src="label/admin/4.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-26">
+  <div class="slide hidden" id="slide-25">
     <section class="slide-content"><p><img src="label/admin/5.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-27">
+  <div class="slide hidden" id="slide-26">
     <section class="slide-content"><p><img src="label/admin/6.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-28">
+  <div class="slide hidden" id="slide-27">
     <section class="slide-content"><p><img src="label/admin/7.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-29">
+  <div class="slide hidden" id="slide-28">
     <section class="slide-content"><p><img src="label/admin/8.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-30">
+  <div class="slide hidden" id="slide-29">
     <section class="slide-content"><p><img src="label/admin/9.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-31">
+  <div class="slide hidden" id="slide-30">
     <section class="slide-content"><p><img src="label/front/1.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-32">
+  <div class="slide hidden" id="slide-31">
     <section class="slide-content"><p><img src="label/front/2.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-33">
+  <div class="slide hidden" id="slide-32">
     <section class="slide-content"><p><img src="label/front/3.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-34">
+  <div class="slide hidden" id="slide-33">
     <section class="slide-content"><p><img src="label/front/4.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-35">
+  <div class="slide hidden" id="slide-34">
     <section class="slide-content"><h3 id="-">Расширение функционала отзывов</h3>
 <p>Этот модуль делает следующие вещи:</p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-36">
-    <section class="slide-content"><ul>
+  <div class="slide hidden" id="slide-35">
+    <section class="slide-content"><p><small></p>
+<ul>
 <li>Добавляет поле email к сущности отзыва</li>
-<li>Добавляет возможность голосовать за отзывовы (полезный или нет)</li>
+<li>Добавляет возможность голосовать за отзывы (полезный или нет)</li>
 <li>Добавляет в таблицу отзывов в адмике колонки с email&#39;ом, количеством плюсов и минусов</li>
 <li>Добавляет в админку таблицу оценок отзывов</li>
 <li>Позволяет настраивать минимальное время между отправкой отзывов</li>
-<li>Создает систему, для отправки покупателям на почту просьб оставить отзыв недавно приобретенным товарам, по заданным настройкам</li>
+<li>Создает систему, для отправки покупателям на почту просьб оставить отзыв недавно приобретенным товарам, по заданным настройкам<ul>
+<li>1</li>
+<li>2
+</small></li>
+</ul>
+</li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-37">
-    <section class="slide-content"><p><img src="review/admin/1.png" width="100%"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-38">
-    <section class="slide-content"><p><img src="review/admin/2.png" width="100%"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-39">
-    <section class="slide-content"><p><img src="review/admin/3.png" width="100%"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-40">
-    <section class="slide-content"><p><img src="review/admin/4.png" width="100%"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-41">
-    <section class="slide-content"><p><img src="review/admin/5.png" width="100%"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-42">
-    <section class="slide-content"><p><img src="review/admin/6.png" width="100%"></p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-43">
+  <div class="slide hidden" id="slide-36">
     <section class="slide-content"><p><img src="review/front/1.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-44">
+  <div class="slide hidden" id="slide-37">
     <section class="slide-content"><p><img src="review/front/2.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-45">
+  <div class="slide hidden" id="slide-38">
     <section class="slide-content"><p><img src="review/front/3.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-46">
+  <div class="slide hidden" id="slide-39">
     <section class="slide-content"><p><img src="review/front/4.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-47">
+  <div class="slide hidden" id="slide-40">
     <section class="slide-content"><p><img src="review/front/5.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-48">
+  <div class="slide hidden" id="slide-41">
     <section class="slide-content"><p><img src="review/front/6.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-49">
+  <div class="slide hidden" id="slide-42">
     <section class="slide-content"><p><img src="review/front/7.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-50">
+  <div class="slide hidden" id="slide-43">
     <section class="slide-content"><p><img src="review/front/8.png" width="100%"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-51">
+  <div class="slide hidden" id="slide-44">
     <section class="slide-content"><p><img src="review/front/9.png" width="100%"></p>
 </section>
   </div>
+  <div class="slide hidden" id="slide-45">
+    <section class="slide-content"><p><img src="review/front/10.png" width="100%"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-46">
+    <section class="slide-content"><p><img src="review/front/11.png" width="100%"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-47">
+    <section class="slide-content"><p><img src="review/front/12.png" width="100%"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-48">
+    <section class="slide-content"><p><img src="review/admin/1.png" width="100%"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-49">
+    <section class="slide-content"><p><img src="review/admin/2.png" width="100%"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-50">
+    <section class="slide-content"><p><img src="review/admin/3.png" width="100%"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-51">
+    <section class="slide-content"><p><img src="review/admin/4.png" width="100%"></p>
+</section>
+  </div>
   <div class="slide hidden" id="slide-52">
-    <section class="slide-content"><p><img src="review/email/1.png" width="100%"></p>
+    <section class="slide-content"><p><img src="review/admin/5.png" width="100%"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-53">
-    <section class="slide-content"><h3 id="-">Блок показа категорий</h3>
-<p>Модуль предосталяет блок, для показа подкатегорий, из выбранной в админке родительской категории. Возможно встраивание в статичную страницу, например с 404 ошибкой.</p>
+    <section class="slide-content"><p><img src="review/admin/6.png" width="100%"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-54">
-    <section class="slide-content"><p><img src="404/admin/1.png" width="100%"></p>
+    <section class="slide-content"><p><img src="review/email/1.png" width="100%"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-55">
-    <section class="slide-content"><p><img src="404/admin/2.png" width="100%"></p>
+    <section class="slide-content"><h3 id="-">Блок показа категорий</h3>
+<p>Модуль предоставляет блок, для показа подкатегорий, из выбранной в админке родительской категории. Возможно встраивание в статичную страницу, например с 404 ошибкой.</p>
 </section>
   </div>
   <div class="slide hidden" id="slide-56">
-    <section class="slide-content"><p><img src="404/admin/3.png" width="100%"></p>
+    <section class="slide-content"><p><img src="404/admin/1.png" width="100%"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-57">
-    <section class="slide-content"><p><img src="404/admin/4.png" width="100%"></p>
+    <section class="slide-content"><p><img src="404/admin/2.png" width="100%"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-58">
-    <section class="slide-content"><p><img src="404/front/1.png" width="100%"></p>
+    <section class="slide-content"><p><img src="404/admin/3.png" width="100%"></p>
 </section>
   </div>
   <div class="slide hidden" id="slide-59">
+    <section class="slide-content"><p><img src="404/admin/4.png" width="100%"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-60">
+    <section class="slide-content"><p><img src="404/front/1.png" width="100%"></p>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-61">
     <section class="slide-content"><p>Спасибо за внимание</p>
 </section>
   </div>
